@@ -1,4 +1,9 @@
-console.log("hello world")
+import { getPosts } from "./postController.js";
 
+console.log(getPosts())
 
-// this is just to restore memory about nodejs and also to discover new things about it in 2025
+// const generateRandomNumber = require("./utils");
+// // const {export1,export2,...} = require("./utils");
+// // require() is how you bring code from other files into your current file in Node.js.
+
+// console.log(generateRandomNumber())
